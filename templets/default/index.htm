@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>{dede:global.cfg_webname/}</title>
+<meta name="description" content="{dede:global.cfg_description/}" />
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<link rel="stylesheet" type="text/css" href="/skin/css/metinfo_ui.css" id="metuimodule" data-module ="10001" />
+<link rel="stylesheet" type="text/css" href="/skin/css/metinfo.css" />
+<script src="/skin/js/jquery1.7.2.js" type="text/javascript"></script>
+<script src="/skin/js/metinfo_ui.js" type="text/javascript"></script>
+<!--[if IE]>
+<script src="/skin/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+</head>
+<body>
+{dede:include filename="head.htm"/}
+<div class="Zbannar">
+  <div id="flash8box" class="a1">
+    <div id="anim">
+      <div id="marquee">
+        <ul id="mPics" class="list-none">
+          <li id="li" style="width:1440px; height:400px"><a href="#">&nbsp;</a></li>
+        </ul>
+        <ul id="circle" class="list-none">
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="index inner">
+  <div class="index-product ">
+    <h3 class="Ti">{dede:type typeid='9'} <a href="[field:typelink/]"title="[field:typename/]" class="more fr"></a>{/dede:type}<span>产品中心</span>
+      <div class="flip">
+        <p id="trigger"></p>
+        <a class="prev" id="car_prev" href="javascript:void(0);"></a> <a class="next" id="car_next" href="javascript:void(0);"></a> </div>
+    </h3>
+    <div>
+      <div class="active clear">
+        <div class="profld" id="indexcar" data-listnum="4">
+          <ol class='list-none metlist'>
+            {dede:arclist typeid='9' row=14 titlelen=12}
+            <li class='list'><a href='[field:arcurl/]' title='[field:title/]' target='_self' class='img'><img src='[field:picname/]' alt='[field:title/]' title='[field:title/]' width='223' height='180' /></a>
+              <h3 style='width:223px;'><a href='[field:arcurl/]' title='[field:title/]' target='_self'>[field:title/]</a></h3>
+            </li>
+            {/dede:arclist}
+          </ol>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <div class="clear"></div>
+  <div class="index-product linkx">
+    <h3 class="Ti"><a class="more fr"></a><span> 友情链接:</span></h3>
+    <div class="txt">
+      <ul class='list-none'>
+        {dede:flink titlelen='20' row='20' type='text'}
+        <li>[field:link /] </li>
+        {/dede:flink}
+      </ul>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div>
+<footer>
+  <div class="foot-nav"> {dede:channel type='top' row='5'} <a href='[field:typeurl/]' 0 title='[field:typename/]'>[field:typename/]</a><span>|</span> {/dede:channel}
+    {dede:type typeid='16'} <a href='[field:typelink/]'  title='[field:typename/]'>[field:typename/]</a><span>|</span> {/dede:type}
+    {dede:type typeid='5'} <a href='[field:typelink/]'  title='[field:typename/]'>[field:typename/]</a> {/dede:type} </div>
+  <div class="foot-text">
+    <p>{dede:global.cfg_powerby/} {dede:global.cfg_beian/} </p>
+    <p>地址:海南省海口市国贸区 电话:0898-834849591 E-mail:dedecms@163.com
+    <div id="metinfo_91mb_Powered"></div>
+    </p>
+    <p><script src="/skin/js/metinfo.js"></script> 
+    </p>
+  </div>
+</footer>
+<script src="/skin/js/fun.inc.js" type="text/javascript"></script>
+<style type="text/css">
+.Zbannar .a1 #mPics li{ background:url(/skin/images/1389834110.jpg) 50% 50% no-repeat;}
+.Zbannar .a2 #mPics li{ background:url(/skin/images/1389834213.jpg) 50% 50% no-repeat;}
+.Zbannar .a3 #mPics li{ background:url(/skin/images/1389834285.jpg) 50% 50% no-repeat;}
+</style>
+<script type="text/javascript">
+var flash8imgs = [
+{ cn:'a1' , btn:'b' , cs:'cnow' , href:''},
+{ cn:'a2' , btn:'c' , cs:'' , href:''},
+{ cn:'a3' , btn:'d' , cs:'' , href:''}
+];
+</script> 
+<script src='/skin/js/m.js' type='text/javascript'></script>
+</body>
+</html>

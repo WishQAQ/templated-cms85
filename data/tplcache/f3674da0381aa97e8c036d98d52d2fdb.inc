@@ -1,0 +1,1 @@
+<a href="[field:typelink/]"title="[field:typename/]" class="more fr"></a>

@@ -1,0 +1,4 @@
+INSERT INTO `dede_myad` VALUES('21','0','0','index_righ_bottom','首页右下角联系方式','0','1407738617','1410330617',' <span>全国咨询热线：</span> <strong>512-88888888</strong>\r\n        <b>售后热线：</b>512-88888888<br />\r\n        <b>邮    箱：</b>niceholinchow@sina.com <br />\r\n        <b>公司地址：</b>苏州市沧浪区干将东路199号','  <span>全国咨询热线：</span> <strong>512-88888888</strong>\r\n        <b>售后热线：</b>512-88888888<br />\r\n        <b>邮    箱：</b>niceholinchow@sina.com <br />\r\n        <b>公司地址：</b>苏州市沧浪区干将东路199号');
+INSERT INTO `dede_myad` VALUES('31','0','0','huandeng1','幻灯1','0','1407744908','1410336908','/uploads/140811/1-140Q1161523120.jpg','');
+INSERT INTO `dede_myad` VALUES('32','0','0','huandeng2','幻灯2','0','1407744946','1410336946','/uploads/140811/1-140Q11616015H.jpg','');
+INSERT INTO `dede_myad` VALUES('33','0','0','huandeng3','幻灯3','0','1407745049','1410337049','/uploads/140811/1-140Q1161JMK.jpg','');
